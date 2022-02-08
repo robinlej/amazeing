@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+}
+
+main {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.maze-container {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    aspect-ratio: 1;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.path {
+    background-color:#322928;
+}
+
+.wall {
+    background-color:black;
+}
+
+.hero {
+    object-fit:contain;
+    height:90%;
+    width:100%;
+    /* z-index:10; */
+}
+
+.treasure-item,
+.ladder {
+    object-fit: contain;
+    height:50%;
+    width:50%;
+}
